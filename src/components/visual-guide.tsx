@@ -7,7 +7,7 @@ export function VisualGuide() {
             <h1>Product Management</h1>
             <h1>SaaS: A Visual Guide</h1>
           </div>
-          <span className="text-white leading-6">
+          <span className="text-gray-300 leading-6">
             In today's digital age, effective product management is crucial for the < br/>
             success of any software-as-a-service (SaaS) company.
           </span>
