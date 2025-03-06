@@ -5,6 +5,8 @@ import { VisualGuide } from './components/visual-guide'
 import { Brands } from './components/brands'
 import { Overview } from './components/overview'
 import { DashboardWhite } from './components/dashboard-white'
+import { DashboardBlack } from './components/dashboard-black'
+import { DashboardWithoutImage } from './components/dashboard-without-image'
 
 export function App() {
   return (
@@ -14,6 +16,11 @@ export function App() {
       <Brands />
       <Overview />
       <DashboardWhite />
+      <DashboardBlack image='people' />
+      <DashboardWhite />
+      <DashboardBlack />
+      <DashboardWhite image='team' />
+      <DashboardWithoutImage />
     </>
   )
 }

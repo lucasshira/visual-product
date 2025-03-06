@@ -4,4 +4,10 @@
 body {
   max-width: 1440px;
   margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ebebeb;
+}
+
+h2 {
+  font-family: 'Vollkorn', serif;
 }
