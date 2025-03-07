@@ -7,6 +7,7 @@ import { Overview } from './components/overview'
 import { DashboardWhite } from './components/dashboard-white'
 import { DashboardBlack } from './components/dashboard-black'
 import { DashboardWithoutImage } from './components/dashboard-without-image'
+import { EndCap } from './components/endcap'
 
 export function App() {
   return (
@@ -21,6 +22,7 @@ export function App() {
       <DashboardBlack />
       <DashboardWhite image='team' />
       <DashboardWithoutImage />
+      <EndCap />
     </>
   )
 }
