@@ -11,3 +11,11 @@ body {
 h2 {
   font-family: 'Vollkorn', serif;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+}

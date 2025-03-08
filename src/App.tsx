@@ -11,7 +11,7 @@ import { EndCap } from './components/endcap'
 
 export function App() {
   return (
-    <>
+    <div className="w-full">
       <Header />
       <VisualGuide />
       <Brands />
@@ -23,6 +23,6 @@ export function App() {
       <DashboardWhite image='team' />
       <DashboardWithoutImage />
       <EndCap />
-    </>
+    </div>
   )
 }
