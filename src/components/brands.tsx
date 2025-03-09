@@ -27,7 +27,7 @@ export function Brands() {
 
       <div
         ref={scrollRef}
-        className="flex w-full overflow-x-auto scrollbar-hide snap-x snap-mandatory"
+        className="flex w-full overflow-x-auto scrollbar-hide snap-x snap-mandatory lg:overflow-x-hidden"
       >
         <div className="flex shrink-0 justify-center items-center h-[121px] border-1 border-l-0 pl-[28px] border-gray-200">
           <img src="/brands/hubspot.png" alt="Hubspot" className={imgClasses} />
