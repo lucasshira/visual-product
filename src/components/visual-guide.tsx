@@ -1,6 +1,6 @@
 export function VisualGuide() {
   return (
-    <div className="h-[912px] flex items-center justify-center bg-black px-4 md:px-0">
+    <div className="md:h-[912px] h-[750px] flex items-center justify-center bg-black px-4 md:px-0">
       <div className="text-center">
         <div className="text-white font-bold text-[42px] leading-[42px] mb-4">
           <h1>Product Management</h1>

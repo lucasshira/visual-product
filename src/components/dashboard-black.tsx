@@ -4,7 +4,7 @@ interface DashboardBlackProps {
 
 export function DashboardBlack({ image }: DashboardBlackProps) {
   return (
-    <div className={`h-auto bg-black py-8 px-6 sm:px-6 md:px-12 lg:px-[108px] flex flex-col lg:flex-row items-center justify-between text-white ${image === 'people' ? "lg:h-[480px]" : "lg:h-[583px]"}`}>
+    <div className={`h-auto bg-black sm:py-8 py-20 px-6 sm:px-6 md:px-12 lg:px-[108px] flex flex-col lg:flex-row items-center justify-between text-white ${image === 'people' ? "lg:h-[480px]" : "lg:h-[583px]"}`}>
       {image === 'people' ? (
         <img src="/dashboard/people.png" alt="People" className="w-full max-w-[563px]" />
       ) : (
