@@ -12,11 +12,11 @@ export function VisualGuide() {
         </span>
         <div className="mt-8 flex justify-center gap-7">
           <button 
-            className="border-white border text-white font-bold px-9 py-[17px] cursor-pointer text-[14px] sm:text-[16px]
+            className="flex items-center border-white border text-white font-bold h-[54px] px-9 py-[17px] cursor-pointer text-[14px] sm:text-[16px]
             hover:bg-white hover:text-black transition-all duration-300 ease-in-out">
               Get started
           </button>
-          <button className="px-9 py-[17px] bg-white text-gray-900 rounded-[48px] text-[14px] sm:text-[16px] cursor-pointer">Talk to sales</button>
+          <button className="flex items-center px-9 h-[54px] py-[17px] bg-white text-gray-900 rounded-[48px] text-[14px] sm:text-[16px] cursor-pointer">Talk to sales</button>
         </div>
         <div className="mt-8">
           <img src="/visual-product-1.png" alt="Visual Guide" />
